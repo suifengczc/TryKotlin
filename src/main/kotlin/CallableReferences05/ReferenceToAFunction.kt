@@ -9,7 +9,7 @@ package CallableReferences05
 
 fun main(args: Array<String>) {
     val numbers = listOf(1, 2, 3)
-    println(numbers.filter(::isOdd))
+    println(numbers.filter(::isOddd))
 }
 
-fun isOdd(x: Int) = x % 2 != 0
+fun isOddd(x: Int) = x % 2 != 0
