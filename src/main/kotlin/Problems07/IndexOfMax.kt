@@ -6,14 +6,15 @@ package Problems07
  */
 
 fun indexOfMax(a: IntArray): Int? {
-    var max:Int = 0
-    var index:Int = 0
+    var max = 0
+    var index = 0
     if(a.size == 0){
         return null
     }
-    for((k,v) in a() ){
-        if (v >= max){
+    for((k,v) in a.withIndex() ){
+        if (v - max > 0){
             index = k
+            max = v
         }
     }
     return index
