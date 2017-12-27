@@ -1,4 +1,4 @@
-package DelegatedProperties04
+package DelegatedProperties
 
 import kotlin.reflect.KProperty
 

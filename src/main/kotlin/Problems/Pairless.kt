@@ -1,4 +1,4 @@
-package Problems07
+package Problems
 
 /*
  * Think of a perfect world where everybody has a soulmate.

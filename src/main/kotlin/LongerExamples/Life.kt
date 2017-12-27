@@ -1,4 +1,4 @@
-package LongerExamples06
+package LongerExamples
 
 /**
  * This is a straightforward implementation of The Game of Life

@@ -1,4 +1,4 @@
-package Problems07
+package Problems
 
 /*
  * Any array may be viewed as a number of "runs" of equal numbers.

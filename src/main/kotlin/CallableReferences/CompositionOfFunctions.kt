@@ -1,4 +1,4 @@
-package CallableReferences05
+package CallableReferences
 
 /**
  * The composition function return a composition of two functions passed to it:

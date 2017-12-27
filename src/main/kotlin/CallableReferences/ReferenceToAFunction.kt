@@ -1,4 +1,4 @@
-package CallableReferences05
+package CallableReferences
 
 /**
  * "Callable References" or "Feature Literals", i.e. an ability to pass

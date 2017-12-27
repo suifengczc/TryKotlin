@@ -1,4 +1,4 @@
-package LongerExamples06
+package LongerExamples
 
 /**
  * This is an example of a Type-Safe Groovy-style Builder

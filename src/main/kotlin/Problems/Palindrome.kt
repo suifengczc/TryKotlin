@@ -1,4 +1,4 @@
-package Problems07
+package Problems
 
 /*
  * Your task is to implement a palindrome test.

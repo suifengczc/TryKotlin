@@ -1,4 +1,4 @@
-package Problems07
+package Problems
 
 /*
  * Your task is to implement the indexOfMax() function so that it returns
