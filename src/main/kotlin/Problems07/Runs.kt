@@ -29,6 +29,31 @@ fun runs(a: IntArray): Int {
     return times
 }
 
+fun runs_new(a: IntArray): Int {
+    // Write your solution here
+
+    if (a.size == 0)
+        return 0
+    else if(a.size == 1)
+        return 1
+    else if(a.size == 2){
+        if(a[0] == a[1])
+            return 2
+        else
+            return 1
+    }
+    else{
+        var count = 1
+        for(i in 0..a.size-2){
+            if(a[i] != a[i+1]){
+                count = count + 1
+            }
+        }
+        return count
+    }
+
+}
+
 fun main(args: Array<String>) {
     println("--1--${runs(intArrayOf(0))}")
     println("--2--${runs(intArrayOf(1, 1))}")
