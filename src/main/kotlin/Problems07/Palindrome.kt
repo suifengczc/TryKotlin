@@ -11,15 +11,18 @@ package Problems07
 
 fun isPalindrome(s: String): Boolean {
     // Write your solution here
+    var flag = true
     for (i in 0 until s.length) {
-        if (s[i] != s[s.length - i - 1]) {
-            return false
+        print("${s[i]} \n")
+        if (s[i] != s[s.length - 1 - i]){
+            flag = false
         }
     }
-    return true
+    return flag
 }
 
 fun main(args: Array<String>) {
-    print(isPalindrome("asasfaf"))
+    print(isPalindrome("assa"))
+//    isPalindrome("asasfaf")
 }
 
