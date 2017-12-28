@@ -1,4 +1,4 @@
-package DelegatedProperties
+package Examples.DelegatedProperties
 
 private class User(val map: Map<String, Any?>) {
     val name: String by map

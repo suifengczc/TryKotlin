@@ -1,4 +1,4 @@
-package LongerExamples
+package Examples.LongerExamples
 
 /**
  * This example implements the famous "99 Bottles of Beer" program

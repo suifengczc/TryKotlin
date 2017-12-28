@@ -1,4 +1,4 @@
-package DelegatedProperties
+package Examples.DelegatedProperties
 
 /**
  * 标准代理（Standard Delegates）

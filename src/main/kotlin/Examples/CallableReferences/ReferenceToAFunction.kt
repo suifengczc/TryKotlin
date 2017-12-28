@@ -1,4 +1,4 @@
-package CallableReferences
+package Examples.CallableReferences
 
 /**
  * "Callable References" or "Feature Literals", i.e. an ability to pass

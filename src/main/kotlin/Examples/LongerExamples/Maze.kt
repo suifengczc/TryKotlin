@@ -1,4 +1,4 @@
-package LongerExamples
+package Examples.LongerExamples
 
 /**
  * Let's Walk Through a Maze.
