@@ -21,6 +21,6 @@ class IndexOfMaxKtTest {
     }
 
     fun test(expected: Int?, vararg data: Int) {
-//        assertEquals(expected, Examples.Problems.indexOfMax(data), "\ndata = ${Arrays.toString(data)}")
+//        assertEquals(expected, Examples.Problems.IndexOfMax.indexOfMax(data), "\ndata = ${Arrays.toString(data)}")
     }
 }
