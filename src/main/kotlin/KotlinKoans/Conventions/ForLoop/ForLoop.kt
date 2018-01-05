@@ -9,7 +9,7 @@ You can use the function MyDate.nextDay() defined in DateUtil.kt
 
 class DateRange(val start: MyDate, val end: MyDate) : Iterable<MyDate> { //DateRange 实现iterable接口
     override fun iterator(): Iterator<MyDate> {
-        return DateIterator(this)
+        return DateIterator(this)//重写iterator方法
     }
 }
 
