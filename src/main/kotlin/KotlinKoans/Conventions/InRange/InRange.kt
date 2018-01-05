@@ -1,6 +1,5 @@
 package KotlinKoans.Conventions.InRange
 
-import KotlinKoans.Conventions.Comparison.MyDate
 
 /*
 In range
@@ -12,7 +11,7 @@ val list = listOf("a", "b")
 Read about ranges. Add a method fun contains(d: MyDate) to the class DateRange to allow in checks with a range of dates.
  */
 
-class DateRange(val start: MyDate, val endInclusive: MyDate){
+class DateRange(val start: KotlinKoans.Conventions.InRange.MyDate, val endInclusive: MyDate){
    operator fun contains(d: MyDate): Boolean = d >= start && d <= endInclusive
 }
 

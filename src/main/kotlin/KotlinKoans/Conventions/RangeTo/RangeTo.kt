@@ -1,6 +1,5 @@
 package KotlinKoans.Conventions.RangeTo
 
-import KotlinKoans.Conventions.Comparison.MyDate
 
 /*
 Range to

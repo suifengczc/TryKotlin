@@ -1,4 +1,4 @@
-package Examples.Problems.ForLoop
+package KotlinKoans.Conventions.ForLoop
 
 /*
 For loop
@@ -7,10 +7,11 @@ Make the class DateRange implement Iterable<MyDate>, so that it could be iterate
 You can use the function MyDate.nextDay() defined in DateUtil.kt
  */
 
-//private class DateRange(val start: MyDate, val end: MyDate)
-//
-//fun iterateOverDateRange(firstDate: MyDate, secondDate: MyDate, handler: (MyDate) -> Unit) {
+class DateRange(val start: MyDate, val end: MyDate){
+}
+
+fun iterateOverDateRange(firstDate: MyDate, secondDate: MyDate, handler: (MyDate) -> Unit) {
 //    for (date in firstDate..secondDate) {
 //        handler(date)
 //    }
-//}
+}

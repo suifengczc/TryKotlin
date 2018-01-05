@@ -1,12 +1,13 @@
 import org.junit.Before;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class MyClassTest {
 
     @Before
     public void setUp() throws Exception {
+        MyClass my = new MyClass();
+        my.sayHello();
     }
 
     @Test

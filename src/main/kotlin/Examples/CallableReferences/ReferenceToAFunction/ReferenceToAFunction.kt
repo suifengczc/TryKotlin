@@ -9,7 +9,7 @@ package Examples.CallableReferences.ReferenceToAFunction
 
 fun main(args: Array<String>) {
     val numbers = listOf(1, 2, 3)
-    println(numbers.filter(::isOddd))
+    println(numbers.filter(::isOdd))
 }
 
-fun isOddd(x: Int) = x % 2 != 0
+fun isOdd(x: Int) = x % 2 != 0

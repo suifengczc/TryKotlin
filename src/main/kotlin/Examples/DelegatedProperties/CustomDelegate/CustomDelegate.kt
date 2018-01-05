@@ -2,7 +2,7 @@ package Examples.DelegatedProperties.CustomDelegate
 
 import kotlin.reflect.KProperty
 
-class Delegate(){
+class Delegate{
 //    operator fun getValue(thisRef: Any?, prop: KProperty<*>):String {
 //        return "$thisRef,think you for delegating '${prop.name}' for me"
 //    }
