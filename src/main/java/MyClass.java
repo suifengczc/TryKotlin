@@ -3,8 +3,8 @@ import java.util.*;
 
 public class MyClass {
 
-    public void sayHello() {
-        System.out.print("hello test");
+    public String sayHello() {
+        return "Hello";
     }
 
     public Collection<String> doSomethingStrangeWithCollection(
