@@ -7,6 +7,18 @@ public class MyClass {
         return "Hello";
     }
 
+    public int transferNum(int num) {
+        if (num == 0) {
+            return 1;
+        } else if (num % 2 == 0) {
+            return num + transferNum(num - 2);
+        } else if (num % 2 != 0) {
+            return num;
+        } else {
+            return num;
+        }
+    }
+
     public Collection<String> doSomethingStrangeWithCollection(
             Collection<String> collection
     ) {
