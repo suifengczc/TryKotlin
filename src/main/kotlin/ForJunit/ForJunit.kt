@@ -8,8 +8,8 @@ class ForJunit {
     fun transferNum(num: Long): String {
         val realNum = Math.abs(num)
         return when {
-            realNum > 10000 -> "${num / 10000}万"
-            realNum > 100000000 -> "${num / 100000000}亿"
+            realNum > 100000000 -> "${(num / 100000000) % 2f}亿"
+            realNum > 10000 -> "${(num / 10000) % 2f}万"
             else -> num.toString()
         }
     }

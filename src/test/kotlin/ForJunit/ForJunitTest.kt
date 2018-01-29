@@ -19,6 +19,6 @@ class ForJunitTest {
 
     @Test
     fun transferNum1() {
-        assertEquals("1万", kt!!.transferNum(11000))
+        assertEquals("1.0万", kt!!.transferNum(11000))
     }
 }
